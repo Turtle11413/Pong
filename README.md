@@ -1,10 +1,10 @@
 # Pong
 
 ## install
-'''bash
+```bash
 git clone git@github.com:Turtle11413/Pong.git
 cd Pong
-'''
+```
 
 ## controls
  - a - 1st player up
