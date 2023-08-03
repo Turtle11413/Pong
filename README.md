@@ -23,7 +23,7 @@ make run_pong_interactive
 ```bash
 make pong_cringe
 make run_pong_cringe
-
+```
 ## controls
  - a - 1st player up
  - z - 1st player down
