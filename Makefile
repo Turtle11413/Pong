@@ -5,13 +5,13 @@ LIBS=-lncurses
 all: pong pong_ineractive pong_cringe
 
 pong: pong.c
-	$(CC) $(FLAGS) -o pong
+	$(CC) $(FLAGS) pong.c -o pong
 
 pong_interactive: pong_interactive.c
-	$(CC) $(FLAGS) $(LIBS) -o pong_interactive
+	$(CC) $(FLAGS) $(LIBS) pong_interactive.c -o pong_interactive
 
 pong_cringe: pong_cringe.c
-	$(CC) $(FLAGS) $(LIBS) -o pong_cringe
+	$(CC) $(FLAGS) $(LIBS) pong_cringe.c -o pong_cringe
 
 run_pong: pong
 	./pong
